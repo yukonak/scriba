@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
+# Added gems
 gem 'carrierwave'
 gem 'mini_magick', '~> 3.8.0'
 gem 'devise', '~> 3.2.4'
+gem 'gravtastic', '~> 3.2.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
