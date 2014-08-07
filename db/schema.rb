@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140807141838) do
+ActiveRecord::Schema.define(version: 20140807174500) do
 
   create_table "transcriptions", force: true do |t|
     t.string   "user_name"
     t.text     "description"
-    t.string   "pictures"
+    t.string   "picture"
     t.text     "transcription"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
   end
 
 end

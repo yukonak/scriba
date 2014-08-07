@@ -69,6 +69,6 @@ class TranscriptionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def transcription_params
-      params.require(:transcription).permit(:user_name, :description, :pictures, :transcription)
+      params.require(:transcription).permit(:user_name, :description, :picture, :transcription)
     end
 end
